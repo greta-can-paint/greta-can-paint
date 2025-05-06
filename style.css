@@ -70,3 +70,6 @@ body {
   background-color: #ff3366;
   color: white;
 }
+h1, h2, .logo {
+  font-family: 'Instrument Serif', serif;
+}
