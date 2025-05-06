@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #ffc1cc;
+  background-color: #fc8eac;
   color: red;
   font-size: 40px;
 }
 
 .site-header {
-  background-color: #ff3366;
+  background-color: #fc8eac; 
   color: white;
   padding: 20px 40px;
   display: flex;
