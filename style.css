@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #ffc1cc;
-  color: #2d2d2d;
+  color: red;
+  font-size: 22 px;
 }
 
 .site-header {
@@ -34,7 +35,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #ff3366, #ff69b4);
+  background: #ffc1cc;
   color: white;
   text-align: center;
   padding: 100px 20px;
