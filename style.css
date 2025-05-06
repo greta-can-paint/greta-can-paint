@@ -19,6 +19,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   color: #ff6347;
+  font-style: italic;
 }
 
 .site-nav ul {
@@ -47,6 +48,7 @@ body {
 .hero h2 {
   font-size: 3em;
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 .hero p {
