@@ -18,6 +18,7 @@ body {
 .logo {
   font-size: 2em;
   font-weight: bold;
+  color: #ff6347;
 }
 
 .site-nav ul {
@@ -29,7 +30,7 @@ body {
 }
 
 .site-nav a {
-  color: red;
+  color: #ff6347;
   text-decoration: none;
   font-weight: bold;
    font-family: 'Instrument Serif', serif;
