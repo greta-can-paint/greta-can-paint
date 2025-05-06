@@ -79,6 +79,48 @@ body {
   background-color: #ffe6ec;
 }
 
+.about {
+  background-color: #fff0f5;
+  color: red;
+  padding: 80px 20px;
+  font-family: 'Instrument Serif', serif;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ff6347;
+  font-style: italic;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.about-images img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid #ff6347;
+  border-radius: 10px;
+}
+
 .site-footer {
   text-align: center;
   padding: 20px;
