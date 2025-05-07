@@ -148,8 +148,10 @@ h1, h2, .logo {
 }
 
 .product img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
   border: 5px solid #ff6347;
   border-radius: 12px;
   margin-bottom: 10px;
