@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Kantumruy Pro', sans-serif;
   background-image: url(https://i.imgur.com/IyB03RD.jpeg);
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ body {
   padding: 20px;
   background-color: #ff6347;
   color: white;
-  font-family: 'Instrument Serif', serif;
+  font-family: 'Kantumruy Pro', serif;
 }
 h1, h2, .logo {
   font-family: 'Instrument Serif', serif;
