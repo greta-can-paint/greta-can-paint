@@ -158,8 +158,8 @@ h1, h2, .logo {
 .buy-button {
   display: inline-block;
   margin-top: 10px;
-  background-color: #ff6347;
-  color: white;
+  background-color: white;
+  color: #ff6347;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
