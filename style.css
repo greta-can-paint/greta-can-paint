@@ -98,7 +98,7 @@ body {
   color: #ff6347;
   font-style: italic;
 }
-
+/* === HOME PAGE ABOUT WORDS === */
 .about p {
   font-size: 1.2em;
   line-height: 1.6;
@@ -113,7 +113,7 @@ body {
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-
+/* === HOME PAGE ABOUT IMGS === */
 .about-images img {
   width: 300px;
   height: 300px;
@@ -121,7 +121,7 @@ body {
   border: 5px solid #ff6347;
   border-radius: 10px;
 }
-
+/* === SITE FOOTER === */
 .site-footer {
   text-align: center;
   padding: 20px;
@@ -146,7 +146,7 @@ h1, h2, .logo {
   max-width: 300px;
   font-family: 'Instrument Serif', serif;
 }
-
+/* === SHOP PAGE IMAGES SIZE + POSITION === */
 .product img {
   width: 300px;
   height: 300px;
@@ -156,7 +156,7 @@ h1, h2, .logo {
   border-radius: 12px;
   margin-bottom: 10px;
 }
-
+/* === SHOP PAGE BUY BUTTONS === */
 .buy-button {
   display: inline-block;
   margin-top: 10px;
@@ -171,4 +171,10 @@ h1, h2, .logo {
 
 .buy-button:hover {
   background-color: #e9543d;
+}
+/* === SHOP PAGE HEADING COLOR === */
+.shop-heading {
+  color: #ff3366;
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
 }
