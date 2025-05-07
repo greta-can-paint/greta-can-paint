@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: red;
+  color: #ff6347;
   font-size: 22px;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .about {
   background-color: #fff0f5;
-  color: red;
+  color: #ff6347;
   padding: 80px 20px;
   font-family: 'Instrument Serif', serif;
 }
