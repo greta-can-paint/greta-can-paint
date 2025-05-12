@@ -121,6 +121,10 @@ body {
   border: 5px solid #ff6347;
   border-radius: 10px;
 }
+.about-images img:nth-child(1) {
+  border: 5px solid white; 
+}
+
 /* === SITE FOOTER === */
 .site-footer {
   text-align: center;
