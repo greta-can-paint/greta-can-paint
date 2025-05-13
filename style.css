@@ -122,7 +122,7 @@ body {
   border-radius: 10px;
 }
 .about-images img:nth-child(1) {
-  border: 5px solid white; 
+  border: 5px solid #fdeff6; 
 }
 
 /* === SITE FOOTER === */
