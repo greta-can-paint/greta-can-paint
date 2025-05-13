@@ -121,8 +121,11 @@ body {
   border: 5px solid #ff6347;
   border-radius: 10px;
 }
+/* === DESIGN ABOUT IMAGE SETTINGS === */
 .about-images img:nth-child(1) {
   border: 1px solid #fff0f5; 
+  width: 350px;
+  height: 350px;
 }
 
 /* === SITE FOOTER === */
