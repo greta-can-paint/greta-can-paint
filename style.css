@@ -112,12 +112,11 @@ body {
   gap: 30px;
   flex-wrap: nowrap;
   margin-bottom: 40px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
+  overflow-x: visible;
 }
 /* === HOME PAGE ABOUT IMGS === */
 .about-images img {
-  width: 45vw;
+  width: 300px;
   height: auto;
   object-fit: cover;
   border: 5px solid #ff6347;
@@ -352,14 +351,15 @@ h1, h2, .logo {
   }
 
   .about-images {
-    flex-wrap: nowrap;
     overflow-x: auto;
     scroll-behavior: smooth;
-    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 0 10px; 
+    justify-content: flex-start;
   }
 
   .about-images img {
-    width: 45vw;
+    width: 70vw;
     height: auto;
     flex-shrink: 0;
   }
