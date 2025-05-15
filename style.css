@@ -272,8 +272,6 @@ h1, h2, .logo {
 .chat-bubble {
   position: relative;
   background-color: #fff0f5;
-  border: 3px solid #ff6347;
-  border-radius: 20px;
   padding: 40px;
   max-width: 600px;
   margin: 40px auto;
