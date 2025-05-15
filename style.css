@@ -285,10 +285,10 @@ h1, h2, .logo {
 
 
 .chat-bubble h2 {
-  font-family: 'Instrument Serif', serif;
+  font-family: 'Luxurious Script', cursive;
   font-size: 2.2em;
   margin-bottom: 20px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .chat-bubble a {
