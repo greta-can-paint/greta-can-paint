@@ -328,6 +328,22 @@ h1, h2, .logo {
   text-decoration-style: wavy;
 }
 
+.wave-wrapper {
+  position: relative;
+  margin: 40px auto;
+  max-width: 600px;
+  z-index: 0;
+}
+
+.wave-top {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: -1;
+}
+
 /* === MOBILE STYLES === */
 @media screen and (max-width: 768px) {
   .site-header {
@@ -373,10 +389,7 @@ h1, h2, .logo {
     width: 90vw;
     height: auto;
   }
-.wavy-frame {
-  padding: 15px;
-  background: url("https://www.transparenttextures.com/patterns/wavecut.png") center/cover no-repeat;
-  border-radius: 30px;
+
 }
 
 .chat-bubble {
