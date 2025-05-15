@@ -281,9 +281,6 @@ h1, h2, .logo {
   text-align: center;
 
    border: 30px solid transparent;
- border-image: url(https://i.imgur.com/vk2Pdas.png) 60 round;
-  border-image-slice: 60;
-  border-radius: 20px;
 }
 
 
