@@ -206,4 +206,24 @@ h1, h2, .logo {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+.contact-banner {
+  background-color: #ffe6ec; 
+  color: #ff6347; 
+  text-align: center;
+  padding: 60px 20px 40px;
+  font-family: 'Instrument Serif', serif;
+  border-bottom: 4px solid #ff6347;
+}
+
+.contact-banner h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.contact-banner p {
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 600px;
+}
 
