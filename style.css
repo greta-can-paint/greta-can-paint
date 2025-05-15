@@ -285,18 +285,6 @@ h1, h2, .logo {
   border-radius: 20px;
 }
 
-/* White inner part to match the bubble color */
-.chat-bubble::before {
-  content: "";
-  position: absolute;
-  bottom: -18px;
-  left: 41px;
-  width: 0;
-  height: 0;
-  border-top: 18px solid #fff0f5;
-  border-left: 18px solid transparent;
-  border-right: 18px solid transparent;
-}
 
 .chat-bubble h2 {
   font-family: 'Instrument Serif', serif;
@@ -365,23 +353,6 @@ h1, h2, .logo {
   }
 
 }
-
-.chat-bubble {
-  background-color: #fff0f5;
-  border: none; /* remove solid border */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  padding: 40px;
-}
-
-  .chat-bubble {
-    margin: 20px 10px;
-    padding: 30px 20px;
-  }
-
-  .chat-bubble::after,
-  .chat-bubble::before {
-    left: 20px;
-  }
 
   .blog-gallery img {
     width: 90vw;
