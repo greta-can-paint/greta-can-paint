@@ -244,3 +244,26 @@ h1, h2, .logo {
   transform: translateY(-10px) scale(1.2) rotate(-10deg);
   text-shadow: 0 0 10px #ff69b4;
 }
+.contact-info {
+  color: #ff6347; /* or your preferred coral/red tone */
+  font-family: 'Kantumruy Pro', sans-serif;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 2.2em;
+  font-family: 'Instrument Serif', serif;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  color: #ff3366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
+
