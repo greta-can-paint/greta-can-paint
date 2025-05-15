@@ -200,7 +200,7 @@ h1, h2, .logo {
 .blog-gallery img {
   width: 100%;
   max-width: 800px;
-  aspect-ratio: 8 / 11;
+  aspect-ratio: 8 / 12;
   object-fit: cover;
   border: 4px solid #ff6347;
   border-radius: 12px;
