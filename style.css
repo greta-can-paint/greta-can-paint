@@ -373,6 +373,18 @@ h1, h2, .logo {
     width: 90vw;
     height: auto;
   }
+.wavy-frame {
+  padding: 15px;
+  background: url("https://www.transparenttextures.com/patterns/wavecut.png") center/cover no-repeat;
+  border-radius: 30px;
+}
+
+.chat-bubble {
+  background-color: #fff0f5;
+  border: none; /* remove solid border */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
 
   .chat-bubble {
     margin: 20px 10px;
