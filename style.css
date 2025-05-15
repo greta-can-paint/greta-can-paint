@@ -245,7 +245,7 @@ h1, h2, .logo {
   text-shadow: 0 0 10px #ff69b4;
 }
 .contact-info {
-  color: #ff6347; /* or your preferred coral/red tone */
+  color: white; /* or your preferred coral/red tone */
   font-family: 'Kantumruy Pro', sans-serif;
   text-align: center;
 }
