@@ -282,6 +282,7 @@ h1, h2, .logo {
 
    border: 30px solid transparent;
  border-image: url(https://i.imgur.com/vk2Pdas.png) 100 stretch;
+  border-image-slice: 100 fill;
   border-radius: 20px;
 }
 
