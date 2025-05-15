@@ -281,19 +281,10 @@ h1, h2, .logo {
   font-family: 'Instrument Serif', serif;
   color: #ff6347;
   text-align: center;
-}
 
-/* The tail of the chat bubble */
-.chat-bubble::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 40px;
-  width: 0;
-  height: 0;
-  border-top: 20px solid #ff6347;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+   border: 10px solid transparent;
+  border-image: url('https://i.imgur.com/0gL2l88.png') 30 round;
+  border-radius: 20px;
 }
 
 /* White inner part to match the bubble color */
