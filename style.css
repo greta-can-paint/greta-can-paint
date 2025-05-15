@@ -267,3 +267,60 @@ h1, h2, .logo {
   text-decoration: underline;
 }
 
+.chat-bubble {
+  position: relative;
+  background-color: #fff0f5;
+  border: 3px solid #ff6347;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: #ff6347;
+  text-align: center;
+}
+
+/* The tail of the chat bubble */
+.chat-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #ff6347;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+/* White inner part to match the bubble color */
+.chat-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: 41px;
+  width: 0;
+  height: 0;
+  border-top: 18px solid #fff0f5;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+}
+
+.chat-bubble h2 {
+  font-family: 'Instrument Serif', serif;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.chat-bubble a {
+  color: #ff3366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.chat-bubble a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
