@@ -328,18 +328,9 @@ h1, h2, .logo {
   text-decoration: underline;
   text-decoration-style: wavy;
 }
+
 /* === MOBILE STYLES === */
 @media screen and (max-width: 768px) {
-  .about-images {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .about-images img {
-    width: 45%;
-    height: auto;
-  }
-
   .site-header {
     flex-direction: column;
     text-align: center;
@@ -361,8 +352,16 @@ h1, h2, .logo {
   }
 
   .about-images {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
     justify-content: center;
+  }
+
+  .about-images img {
+    width: 45vw;
+    height: auto;
+    flex-shrink: 0;
   }
 
   .gallery-grid {
@@ -390,4 +389,3 @@ h1, h2, .logo {
     max-width: none;
   }
 }
-
