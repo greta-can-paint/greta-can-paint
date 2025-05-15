@@ -281,7 +281,7 @@ h1, h2, .logo {
   text-align: center;
 
    border: 10px solid transparent;
-  border-image: url('https://i.imgur.com/0gL2l88.png') 30 round;
+ border-image: url('/mnt/data/A_seamless_wavy_border_pattern_in_a_vibrant_shade_.png') 30 round;
   border-radius: 20px;
 }
 
