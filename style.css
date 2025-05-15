@@ -325,3 +325,61 @@ h1, h2, .logo {
   text-decoration: underline;
   text-decoration-style: wavy;
 }
+/* === MOBILE STYLES === */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .site-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .cta-button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+
+  .about-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product img {
+    width: 90vw;
+    height: auto;
+  }
+
+  .chat-bubble {
+    margin: 20px 10px;
+    padding: 30px 20px;
+  }
+
+  .chat-bubble::after,
+  .chat-bubble::before {
+    left: 20px;
+  }
+
+  .blog-gallery img {
+    width: 90vw;
+    max-width: none;
+  }
+}
+
