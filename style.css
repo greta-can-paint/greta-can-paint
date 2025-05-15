@@ -327,9 +327,15 @@ h1, h2, .logo {
 }
 /* === MOBILE STYLES === */
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 18px;
-    padding: 0 10px;
+  .about-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-images img {
+    width: 45%;
+    height: auto;
+  }
   }
 
   .site-header {
