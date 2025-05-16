@@ -303,9 +303,26 @@ h1, h2, .logo {
   text-decoration-style: wavy;
 }
 
+.scroll-hint {
+  display: none;
+  text-align: center;
+  font-size: 1em;
+  color: #ff6347;
+  font-family: 'Kantumruy Pro', sans-serif;
+  margin-bottom: 15px;
+}
 
 /* === MOBILE STYLES === */
 @media screen and (max-width: 768px) {
+  .scroll-hint {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  color: #ff6347;
+  font-family: 'Kantumruy Pro', sans-serif;
+  margin-bottom: 15px;
+}
+
   .site-header {
     flex-direction: column;
     text-align: center;
@@ -350,23 +367,9 @@ h1, h2, .logo {
     height: auto;
   }
 
-}
-
   .blog-gallery img {
     width: 90vw;
     max-width: none;
   }
 }
-.scroll-hint {
-  display: none;
-  text-align: center;
-  font-size: 1em;
-  color: #ff6347;
-  font-family: 'Kantumruy Pro', sans-serif;
-  margin-bottom: 15px;
-}
-@media screen and (max-width: 768px) {
-  .scroll-hint {
-    display: block;
-  }
-}
+
