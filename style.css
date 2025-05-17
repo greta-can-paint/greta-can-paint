@@ -98,7 +98,7 @@ text-decoration: none;
 .about h2 {
   font-size: 2.5em;
   margin-bottom: 30px;
-  color: #327c3b;
+  color: #ff6347;
   font-style: italic;
 }
 /* === HOME PAGE ABOUT WORDS === */
@@ -137,7 +137,7 @@ text-decoration: none;
 .site-footer {
   text-align: center;
   padding: 20px;
-  background-color: #327c3b;
+  background-color: #ff6347;
   color: white;
   font-family: 'Kantumruy Pro', serif;
 }
@@ -173,7 +173,7 @@ h1, h2, .logo {
   display: inline-block;
   margin-top: 10px;
   background-color: white;
-  color: #327c3b;
+  color: #ff6347;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
