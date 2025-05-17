@@ -19,10 +19,13 @@ body {
 }
 
 .logo {
-  font-size: 2em;
-  font-weight: bold;
-  color: #ff6347;
-  font-style: italic;
+  display: flex;
+ align-items: center;
+text-decoration: none;
+}
+.logo-img {
+  height: 60px; /* adjust this to fit your design */
+  width: auto;
 }
 
 .site-nav ul {
