@@ -245,7 +245,7 @@ h1, h2, .logo {
   cursor: pointer;
 }
 
-.envelope-img: hover {
+.envelope-img:hover {
   transform: translateY(-10px) scale(1.2) rotate(-10deg);
   filter: drop-shadow(0 0 10px #ff69b4);
 }
