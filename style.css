@@ -239,7 +239,7 @@ h1, h2, .logo {
 }
 
 .envelope-img {
-   width: 60px; /* adjust as needed */
+   width: 100px; /* adjust as needed */
   height: auto;
   transition: transform 0.6s ease, rotate 0.6s ease;
   cursor: pointer;
